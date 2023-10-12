@@ -41,5 +41,11 @@ namespace Teste.Controllers
             DateTime teste = DateTime.Now;
             return teste.ToString("yyyy-MM-dd");
         }
+
+        public string GetTeste2()
+        {
+            DateTime teste = DateTime.Now;
+            return teste.ToString("yyyy-MM-dd");
+        }
     }
 }
