@@ -39,7 +39,7 @@ namespace Teste.Controllers
         public string GetTeste()
         {
             DateTime teste = DateTime.Now;
-            return teste.ToString("yyyy-MM-dd");
+            return teste.ToString("dd-MM-yyyy");
         }
 
         public string GetTeste2()
