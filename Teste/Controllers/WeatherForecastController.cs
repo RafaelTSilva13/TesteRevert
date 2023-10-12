@@ -38,8 +38,8 @@ namespace Teste.Controllers
 
         public string GetTeste()
         {
-            DateTime date = DateTime.Now;
-            return date.ToString("yyyy-MM-dd");
+            int teste = 123;
+            return teste.ToString();
         }
 
         public string GetTeste2()
